@@ -3,9 +3,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('maven clean') {
             steps {
-                echo 'Hello World'
+               methodCall()
             }
         }
     }
