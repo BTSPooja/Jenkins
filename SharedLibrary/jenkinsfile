@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     stages {
-        stage('maven clean') {
+        stage('Hello') {
             steps {
                methodCall()
             }
