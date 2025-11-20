@@ -1,3 +1,3 @@
 def call(){
-  sh 'mvn clean install'
+  sh 'echo ello from shared library'
 }
